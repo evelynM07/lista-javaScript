@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lista</title>
+</head>
+
+<body>
+    <script>
+        var numeros = [2,5,7,10,15,23,63,65,78,89,90]
+        var lista = []
+
+        for (posicao in numeros ) {
+            if(numeros[posicao] % 5 == 0){
+                lista.push(numeros[posicao])
+            }
+        }
+
+        alert(lista)
+
+   </script>
+</body>
+
+</html>
